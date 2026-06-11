@@ -205,13 +205,14 @@ public class Library {
                 
                 
                 /*
-                The constructor Book is autoamatically called and passing 
+                The constructor Book is automatically called and passing 
                 all the required arguments inside it
+                Creating a book object
                 */
                 Book book = new Book(id, title, author);
                 book.setAuthor(status);
                 
-                //
+                //Using Book object by calling adding book reference inside.
                 books.add(book);
                 
                 
