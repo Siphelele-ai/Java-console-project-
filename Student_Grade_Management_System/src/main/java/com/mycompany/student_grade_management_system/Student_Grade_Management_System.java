@@ -114,6 +114,15 @@ public class Student_Grade_Management_System {
                     c1.saveRecords();
                     break;
                     
+                case 8:
+                    /*
+                    load records from a file to a collection
+                    */
+                    c1.loadRecords();
+                    break;
+                    
+                    
+                    
                 case 9:
                     System.exit(0);
                     break;
